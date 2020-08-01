@@ -1,0 +1,27 @@
+{
+
+  "manifest_version": 2,
+  "name": "PikaTherapy",
+  "version": "1.1",
+
+  "description": "Replaces all images on the site with a random Pika gif",
+  "homepage_url": "http://heavymetalpenguin.com",
+  "icons": {
+    "48": "icons/pika-48.png"
+  },
+
+  "permissions": [
+    "activeTab",
+    "webRequest",
+    "*://api.giphy.com/*"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/pika-32.png",
+    "default_title": "Pika",
+    "default_popup": "popup/choose_therapy.html"
+  },
+
+  "web_accessible_resources": []
+}
+
